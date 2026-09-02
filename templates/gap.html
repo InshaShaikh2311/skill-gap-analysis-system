@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Skill Gap</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<h2>Skill Gap Analysis</h2>
+
+<img src="{{ url_for('static', filename='charts/gap_grouped1.png') }}">
+
+<h3>Top Skills Gap Table</h3>
+
+{{ table | safe }}
+
+<a href="/">Home</a>
+
+</body>
+
+</html>

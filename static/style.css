@@ -1,0 +1,223 @@
+body {
+
+font-family: Arial, sans-serif;
+
+background: linear-gradient(to right, #4facfe, #00f2fe);
+
+margin: 0;
+
+padding: 0;
+
+text-align: center;
+
+color: white;
+
+}
+
+.container {
+
+margin-top: 50px;
+
+}
+
+h1 {
+
+font-size: 40px;
+
+margin-bottom: 10px;
+
+}
+
+.subtitle {
+
+font-size: 18px;
+
+margin-bottom: 40px;
+
+}
+
+.card-container {
+
+display: flex;
+
+justify-content: center;
+
+gap: 30px;
+
+flex-wrap: wrap;
+
+}
+
+.card {
+
+background: white;
+
+color: black;
+
+width: 250px;
+
+padding: 20px;
+
+border-radius: 15px;
+
+text-decoration: none;
+
+box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+
+transition: transform 0.3s, box-shadow 0.3s;
+
+}
+
+.card:hover {
+
+transform: translateY(-10px);
+
+box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+
+}
+
+.card h2 {
+
+color: #0077cc;
+
+margin-bottom: 10px;
+
+}
+
+.card p {
+
+font-size: 14px;
+
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: #002366;
+    font-size: 20px;
+}
+
+/* page layout */
+
+.page-container {
+
+text-align: center;
+
+margin-top: 30px;
+
+}
+
+/* chart image styling */
+
+.chart {
+
+width: 80%;
+
+max-width: 900px;
+
+margin-top: 20px;
+
+border-radius: 10px;
+
+box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+
+}
+
+/* table styling */
+
+table {
+
+width: 90%;
+
+margin: 30px auto;
+
+border-collapse: collapse;
+
+background-color: white;
+
+color: black;
+
+border-radius: 10px;
+
+overflow: hidden;
+
+box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+
+}
+
+/* table header */
+
+th {
+
+background-color: #002366;
+
+color: white;
+
+padding: 12px;
+
+font-size: 16px;
+
+}
+
+/* table data */
+
+td {
+
+padding: 10px;
+
+border-bottom: 1px solid #ddd;
+
+}
+
+/* alternate rows */
+
+tr:nth-child(even) {
+
+background-color: #f2f6ff;
+
+}
+
+/* hover effect */
+
+tr:hover {
+
+background-color: #dbe9ff;
+
+}
+
+/* scroll if table large */
+
+.table-container {
+
+overflow-x: auto;
+
+}
+
+/* home button */
+
+.home-btn {
+
+display: inline-block;
+
+margin-top: 20px;
+
+padding: 10px 20px;
+
+background-color: #002366;
+
+color: white;
+
+text-decoration: none;
+
+border-radius: 8px;
+
+transition: 0.3s;
+
+}
+
+/* button hover */
+
+.home-btn:hover {
+
+background-color: #0033a0;
+
+}
