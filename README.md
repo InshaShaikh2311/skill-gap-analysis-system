@@ -151,13 +151,13 @@ Skill Scope Analysis System/
 
 The home page provides an overview of the Skill Scope Analysis System and provides navigation to the different analysis modules.
 
-![Home Page](static/charts/project1.PNG)
+![Home Page](static/charts/Home.PNG)
 
 ### Future Skill Prediction
 
 The Future Prediction section displays the predicted skill demand for 2026.
 
-![Future Skill Prediction](static/charts/future1.png)
+![Future Skill Prediction](static/charts/future_pie.png)
 
 ### Past Job Demand
 
